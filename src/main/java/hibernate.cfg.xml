@@ -11,5 +11,6 @@
 		<property name="hibernate.show_sql">true</property>
 		<property name="hbm2ddl.auto">update</property>
 		<mapping class="com.oehm4.pms.entity.AppUserDetails"/>
+		<mapping class="com.oehm4.pms.entity.Register"/>
 	</session-factory>
 </hibernate-configuration>
